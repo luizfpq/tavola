@@ -18,3 +18,6 @@ const Route = use('Route')
 
 Route.on('/').render('welcome');
 Route.on('/home').render('home');
+Route.on('/directQuestion', 'QuestionController.directQuestion');
+Route.on('/openQuestion').render('openQuestion');
+
