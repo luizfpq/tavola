@@ -7,27 +7,26 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="36px"
-   height="33px"
-   viewBox="0 0 36 33"
+   width="186px"
+   height="31px"
+   viewBox="0 0 186 31"
    version="1.1"
-   id="svg3771"
-   sodipodi:docname="logo.svg"
+   id="svg4"
+   sodipodi:docname="title.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
-     id="metadata3777">
+     id="metadata10">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3775" />
+     id="defs8" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -39,31 +38,25 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
      inkscape:window-height="1031"
-     id="namedview3773"
+     id="namedview6"
      showgrid="false"
-     inkscape:zoom="33.744708"
-     inkscape:cx="16.644177"
-     inkscape:cy="13.008633"
-     inkscape:window-x="1920"
+     inkscape:zoom="3.827957"
+     inkscape:cx="93.579195"
+     inkscape:cy="19.94086"
+     inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg3771" />
-  <circle
-     id="path3779-3"
-     cx="17.900557"
-     cy="16.186676"
-     r="15.865204"
-     style="fill:#ffffff;stroke-width:3.13998842" />
-  <circle
-     id="path3779-3-6"
-     cx="17.838581"
-     cy="16.124701"
-     r="14.563762"
-     style="fill:#333333;stroke-width:2.882411" />
-  <circle
-     id="path3779"
-     cx="17.714632"
-     cy="16.248652"
-     r="12.456665"
-     style="fill:#ffffff;stroke-width:2.46538138" />
+     inkscape:current-layer="svg4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:45.99158478px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.14978969"
+     x="-0.52371919"
+     y="35.702869"
+     id="text3717"
+     transform="scale(1.2222686,0.81815079)"><tspan
+       sodipodi:role="line"
+       id="tspan3715"
+       x="-0.52371919"
+       y="35.702869"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Calling Code';-inkscape-font-specification:'Calling Code';stroke-width:1.14978969;fill:#ffffff">Távola</tspan></text>
 </svg>
