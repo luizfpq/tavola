@@ -3,28 +3,27 @@
 class CandidatoController {
     index({view}) {
 
-        let sorteia = this.randomize();
+        const candidatos = [
+            {id: '01', name: 'Carla Rubia Marques'},
+            {id: '02', name: 'Prof. Wilson Silva'},
+        ]
+
+        let sorteia = this.randomize(candidatos);
         console.log(sorteia);
         
         return view.render('home', {
             title: 'Concorrentes',
-            candidatos: sorteia,
+            randCandidatos: sorteia,
+            candidatos: candidatos,
         });
     }
     addCandidato(){
         
     }
 
-    randomize(){
-        const candidatos = [
-            {id: '01', name: 'Carla Rubia Marques'},
-            {id: '02', name: 'Prof. Wilson Silva'},
-            {id: '01', name: 'Carla Rubia Marques'},
-            {id: '02', name: 'Prof. Wilson Silva'},
-            {id: '01', name: 'Carla Rubia Marques'},
-            {id: '02', name: 'Prof. Wilson Silva'},
-        ]
-        const values = Object.values(candidatos);
+    randomize(obj){
+        
+        const values = Object.values(obj);
         const randomValue = values[parseInt(Math.random() * values.length)];
 
         return randomValue;

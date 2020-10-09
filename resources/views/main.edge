@@ -72,14 +72,15 @@
       <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
           <strong class="d-inline-block mb-2 text-success">Cronômetro</strong>
-          <h3 class="mb-0">Tempo:</h3>
+                      <h1 class="display-4 font-italic" >
+                       <span id="hora" style="display:none;">00h</span><span id="minuto">00</span><span id="segundo">:00</span></h1>
+          
           <!--<div class="mb-1 text-muted">Nov 11</div>-->
-          <h1 class="display-4 font-italic">00:00:00</h1>
-          <a href="#" class="stretched-link">Pausar</a>
+          
+          <a href="#" onclick="tempo(1);" id="comeca">Iniciar</a>
+          <a href="#" onclick="parar();" id="parar"  style="display:none;">Pausar</a>
         </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Sortear"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Iniciar</text></svg>
-        </div>
+        
       </div>
     </div>
   </div>
@@ -88,5 +89,7 @@
 <footer class="blog-footer">
   <p> Desenvolvido por  <a href="http://github.com/luizfpq">LuizQuirino</a>.</p>
 </footer>
+<script async language="JavaScript" src="{{assetsUrl('js/cronometro.js')}}"></script>
+<script async language="JavaScript" src="{{assetsUrl('js/sorteia.js')}}"></script>
 </body>
 </html>
