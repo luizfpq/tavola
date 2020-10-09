@@ -9,7 +9,6 @@ class CandidatoController {
         const candidatos = await Candidato.all();
 
         let sorteia = this.randomize(candidatos.toJSON());
-        console.log(sorteia);
         
         return view.render('home', {
             title: 'Concorrentes',
@@ -20,7 +19,8 @@ class CandidatoController {
 
     async sorteio() {
         const candidatos = await Candidato.all();
-        let sorteia = this.randomize(candidatos.toJSON());        
+        let sorteia = this.randomize(candidatos.toJSON());     
+        console.log(sorteia);   
         return sorteia;
     }
     
