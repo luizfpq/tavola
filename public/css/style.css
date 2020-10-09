@@ -89,3 +89,9 @@ p {
     transform: none;
   }
 }
+
+.invisible-input{
+  background-color: #343a40!important;  
+  border: none;  
+  color: white;
+}
